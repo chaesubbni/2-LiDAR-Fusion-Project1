@@ -1,13 +1,15 @@
 # Lidar-Project1
 
-### 윗 or 옆 모습
-<img width="856" height="220" alt="image" src="https://github.com/user-attachments/assets/e716468a-7972-446e-9408-ba4a25289958" />
-
-
 ### 프로젝트 개요
 두 개의 LiDAR 센서 데이터를 통합하고, 자동차 3D 모델과 함께 시각화하는 센서 데이터 보정 및 변환 시스템입니다.
 각 LiDAR의 위치(x, y, z)와 자세(roll, pitch, yaw)를 이용해 회전·이동 변환 행렬을 구성함.
 두 센서 데이터를 하나의 공통 좌표계로 정렬하여 자동차 모델(hyundai_i30.stl)과 함께 표시합니다.
+
+
+### 윗 or 옆 모습 (Lidar1은 빨간색, Lidar2는 파란색)
+<img width="856" height="220" alt="image" src="https://github.com/user-attachments/assets/e716468a-7972-446e-9408-ba4a25289958" />
+
+
 
 ### 프로젝트 의의
 이 프로젝트를 통해 두 개의 LiDAR 센서를 융합하여 서로 다른 좌표계를 하나의 공통 좌표계로 일치시키는 과정을 직접 구현함.
